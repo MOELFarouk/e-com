@@ -4,7 +4,7 @@ declare(strict_types=0);
 
 namespace Application\Model\users;
 
-require_once('src/lib/dbConnect.php');
+require_once('lib/dbConnect.php');
 
 use Application\Lib\Database\DatabaseConnection;
 

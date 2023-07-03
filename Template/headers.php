@@ -19,7 +19,7 @@
             <a class="nav-link" href="#">S'enregistrer</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Se conecter</a>
+            <a class="nav-link" href="index.php?action=login">Se conecter</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

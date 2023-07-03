@@ -97,7 +97,7 @@
 <!-- End info area -->
 
 <!-- Product area -->
-<div class="card text-center border-0" style="padding: 15px;">
+<div class="card text-center border-0 m-5" style="padding: 15px;">
     <h1 class="card-title" style="font-weight: 300;"> Produit recents </h1>
     <p class="card-text wt-3">
         Voici nos dernier produit a joure
@@ -140,7 +140,7 @@
 <!--End Product area -->
 <!--Sponsore area -->
 <div class="card text-center border-0" style="padding: 15px;">
-    <h1 class="card-title" style="font-weight: 300;"> Sponsore </h1>
+    <h1 class="card-title" style="font-weight: 300;"> Sponsores </h1>
     <p class="card-text mt-3">
         Voici les marques qui nous soutienes et fais confience a notre qualiter de service
     </p>
