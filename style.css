@@ -1,0 +1,77 @@
+.btn-primary {
+    background: -webkit-linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
+    background: -moz-linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
+    background: -o-linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
+    background: linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
+    border: none;
+    border-radius: 5px;
+    transition: transform 0.5s;
+    overflow: hidden;
+}
+
+.btn-primary:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.card-img-top_css {
+    transition: transform 0.5s;
+    
+    overflow: hidden;
+}
+
+.card-img-top_css:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+a {
+    text-decoration: none !important;
+    background-color: ;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.card-body_css {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-ordinal-group: vertical;
+    overflow: hidden;
+}
+/* #navbar{ 
+    position: fixed;
+  top: -50px;
+  transition: top 0.3s;
+
+}*/
+#banner{
+    margin-top: 100px !important;
+}
+#search{
+    border-color: #ff6c00;
+    color: #ff6c00;
+}
+#search:hover{
+    background-color: #ff6c00;
+    color: white;
+}
+
+
+.sponsor-img{
+    width: 200px !important;
+    transition: transform 0.5s;
+    overflow: hidden;
+}
+.sponsor-img:hover{
+    transform: scale(1.1);
+    
+}
+#logos{
+    padding-left: 100px;
+    margin-bottom: 50px;
+}
