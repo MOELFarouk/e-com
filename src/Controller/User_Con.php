@@ -25,6 +25,7 @@ class Connection
                 if($email === $user->email && $password === $user->password)
                 {
                     $_SESSION['LOGGED_USER'] = $email;
+                    header('index.php?action=')
                 }
             }
         }
