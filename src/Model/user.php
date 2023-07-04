@@ -15,6 +15,7 @@ class variable
     public string $email;
     public  string $password;
     public string $date;
+    public bool $admin;
 }
 class users
 {
@@ -23,7 +24,7 @@ class users
     public function getUsers()
     {
         $statement = $this->dbConnect->getConnection()->prepare(
-            'SELECT user_id, name, email, password, DATE_FORMAT(date, "%d/%m/%Y") AS date FROM users ORDER BY date'
+            'SELECT user_id, name, email, password,admin, DATE_FORMAT(date, "%d/%m/%Y") AS date FROM users ORDER BY date'
         );
         $users = [];
         while (($row = $statement->fetch())) {
@@ -33,7 +34,7 @@ class users
             $user->email = $row['email'];
             $user->password = $row['password'];
             $user->date = $row['date'];
-
+            $user->admin = $row['admin'];
             $users[] = $user;
         }
         return $users;

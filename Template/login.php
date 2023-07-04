@@ -1,9 +1,9 @@
 <?php ob_start();?>
 
-<div class="container " style="margin-bottom: 100px;">
+<div class="container " style=" height: 500px;">
         <div class="row justify-content-center" style="margin-top: 60px;">
-            <div class="col-lg-4 col-sm-8 col-md-8" id="col cont">
-                <div class="card mt-5">
+            <div class="col-lg-6 col-sm-12 col-md-12" id="col cont">
+                <div class="card" style="margin-top: 100px">
                     <div class="card-body">
 
                         <form action="index.php?action=" method="post" enctype="multipart/form-data">
